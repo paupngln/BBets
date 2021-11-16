@@ -103,7 +103,9 @@ low<-sdata3[5]
 high<-sdata3[195]
 ```
 
+As per the plot above, it shows that for us to be able to make the 2:1 bets fair the number of students in a given class should be about 29. We came upon the number of the class by narrowing down the number of people. The less people in the class, the less money he makes. 
 
+The red and the blue line in the plot above represents the 95% confidence interval of his earnings. 
 
 # Discussion and Conclusion
 
