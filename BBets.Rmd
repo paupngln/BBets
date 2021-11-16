@@ -77,10 +77,10 @@ for(i in 1:200){
 }
 sdata2<-sort(Data2)
 hist(sdata2)
-abline(v=sdata2[10],col="red")
-abline(v=sdata2[190],col="blue")
-low<-sdata2[10]
-high<-sdata2[190]
+abline(v=sdata2[5],col="red")
+abline(v=sdata2[195],col="blue")
+low<-sdata2[5]
+high<-sdata2[195]
 ```
 
 The plot seems to show that zero is centered when we use the odds of 4.39
@@ -89,6 +89,19 @@ The plot seems to show that zero is centered when we use the odds of 4.39
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+```{r}
+Data3<-array(dim = 200)
+Data3<-as.numeric(Data3)
+for(i in 1:200){
+  Data3[i] = Pau(numClass = 29)
+}
+sdata3<-sort(Data3)
+hist(sdata3)
+abline(v=sdata3[5],col="red")
+abline(v=sdata3[195],col="blue")
+low<-sdata3[5]
+high<-sdata3[195]
+```
 
 
 
