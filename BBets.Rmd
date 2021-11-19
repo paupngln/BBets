@@ -111,3 +111,7 @@ The red and the blue line in the plot above represents the 95% confidence interv
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+In conclusion, if professor Brownlow wants to change his payouts to center on zero he should take on less students. We came about this solution by estimating the number of people on the class, if we go for a higher number of people in class professor Brownlow earnings went up but if we lessen the number of people in the class he starts losing money, knowing that we zeroed in on the number. 
+
+Furthermore,what we also did in this problem to arrive at our conclusion is to first try and edit out the BrLW function to have default values. So we did that and after that we ran that code named pau through out the program to work in properly. 
+
